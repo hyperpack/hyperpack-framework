@@ -1,0 +1,64 @@
+{
+  "private": true,
+  "name": "main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest -w",
+    "coverage": "jest --coverage"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "typescript": "^3.8.2",
+    "zeroconf-typescript-eslint": "^2.1.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1"
+  },
+  "jest": {
+    "preset": "ts-jest/presets/js-with-babel",
+    "globals": {
+      "ts-jest": {
+        "tsConfig": {
+          "module": "commonjs",
+          "esModuleInterop": true,
+          "resolveJsonModule": true,
+          "jsx": "react",
+          "strictFunctionTypes": true,
+          "experimentalDecorators": true,
+          "emitDecoratorMetadata": true,
+          "alwaysStrict": true,
+          "noImplicitThis": true
+        }
+      }
+    },
+    "testMatch": [
+      "**/packages/**/test/*.{js,ts,tsx}"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/fixtures/",
+      "/dist/"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text",
+      "html"
+    ],
+    "collectCoverageFrom": [
+      "packages/**/src/**/*.{js,ts,tsx}"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    }
+  }
+}

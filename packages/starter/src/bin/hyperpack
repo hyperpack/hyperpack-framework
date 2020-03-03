@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+require('ts-node/register')
+const boot = require('../config/boot').default
+
+const main = async () => {
+  await boot()
+}
+
+main()

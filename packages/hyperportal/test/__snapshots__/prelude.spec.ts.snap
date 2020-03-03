@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`prelude js render 1`] = `
+"{
+    [1m[37mfrontman[39m[22m: [33m'bruce'[39m
+}"
+`;
+
+exports[`prelude o render 1`] = `
+"{
+    [1m[37mfrontman[39m[22m: [33m'bruce'[39m
+}"
+`;
+
+exports[`prelude t render 1`] = `
+"╔══════════╗
+║ frontman ║
+╟──────────╢
+║ bruce    ║
+╚══════════╝
+"
+`;
+
+exports[`prelude t1 render 1`] = `
+"frontman
+--------
+bruce   "
+`;

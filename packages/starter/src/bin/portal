@@ -1,0 +1,10 @@
+#!/usr/bin/env node --experimental-repl-await
+require('ts-node/register')
+const { portal } = require('@hyperpack/hyperportal')
+const { App } = require('../config/boot')
+
+const main = async () => {
+  await portal(App)
+}
+
+main()

@@ -1,0 +1,13 @@
+{
+  "name": "@hyperpack/hypermodel",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.11.0",
+    "typeorm": "^0.2.24"
+  },
+  "devDependencies": {}
+}

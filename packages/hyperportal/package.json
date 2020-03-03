@@ -1,0 +1,21 @@
+{
+  "name": "@hyperpack/hyperportal",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "@hyperpack/hypermodel": "1.0.0",
+    "as-table": "^1.0.55",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.11.0",
+    "console-table-printer": "^1.1.62",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.15",
+    "purdy": "^3.5.1",
+    "table": "^5.4.6"
+  },
+  "devDependencies": {
+    "typeorm": "^0.2.24"
+  }
+}

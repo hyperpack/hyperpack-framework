@@ -1,0 +1,9 @@
+language: node_js
+cache: yarn
+node_js:
+  - "12"
+
+script: 
+   - yarn install
+   - yarn lerna bootstrap
+   - yarn test

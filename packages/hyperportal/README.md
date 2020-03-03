@@ -1,9 +1,9 @@
 
-# Hypermodel
+# Hyperportal
 
-Hypermodel is a productivity REPL for your Hyperpack app. It finds, loads, and sets up a database connection so that you're up and ready to work interactively.
+Hyperportal is a productivity REPL for your Hyperpack app. It finds, loads, and sets up a database connection so that you're up and ready to work interactively.
 
-You can work locally or use Hypermodel as an administration tool for your app. It's similar in spirit to the Rails console.
+You can work locally or use Hyperportal as an administration tool for your app. It's similar in spirit to the Rails console.
 
 
 
